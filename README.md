@@ -49,7 +49,7 @@ Foodish/
 ```bash
 git clone https://github.com/MerveNur0001-eng/Foodish.git
 cd Foodish
-
+'''
 2️⃣ Open in Visual Studio
 
 Open Foodish.sln with Visual Studio 2022 (or later).
@@ -57,20 +57,20 @@ Open Foodish.sln with Visual Studio 2022 (or later).
 3️⃣ Configure the Database
 
 Set your SQL Server connection string in:
-
+'''bash
 Foodish.DataAccessLayer/Context/FoodishContext.cs
-
+'''
 
 Example:
-
+'''bash
 optionsBuilder.UseSqlServer("Server=YOUR_SERVER;Database=FoodishDb;Trusted_Connection=True;TrustServerCertificate=True;");
-
+'''
 4️⃣ Run Migrations
 
 Open Package Manager Console and run:
-
+'''bash
 Update-Database
-
+'''
 5️⃣ Run the Project
 
 Set Foodish.PresentationLayer as the startup project.
@@ -78,9 +78,9 @@ Set Foodish.PresentationLayer as the startup project.
 Click Run ▶ or press F5.
 
 The project will launch at a URL like:
-
+'''bash
 https://localhost:xxxx
-
+'''
 🤝 Contributing
 
 Pull requests are welcome! For major changes, please open an issue first.
