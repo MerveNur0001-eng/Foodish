@@ -43,27 +43,43 @@ Foodish/
  ├── Foodish.BusinessLayer/
  ├── Foodish.DtoLayer/
  └── Foodish.PresentationLayer/
+## 🏗️ How to Run the Project
 
- 🏗️ How to Run the Project
-1. Clone the repository
+### 1️⃣ Clone the Repository
+```bash
 git clone https://github.com/MerveNur0001-eng/Foodish.git
+cd Foodish
 
-2. Open in Visual Studio
+2️⃣ Open in Visual Studio
 
-Open the solution file (.sln).
+Open Foodish.sln with Visual Studio 2022 (or later).
 
-3. Update the Database
+3️⃣ Configure the Database
 
 Set your SQL Server connection string in:
 
 Foodish.DataAccessLayer/Context/FoodishContext.cs
 
-4. Run Migrations (if applicable)
+
+Example:
+
+optionsBuilder.UseSqlServer("Server=YOUR_SERVER;Database=FoodishDb;Trusted_Connection=True;TrustServerCertificate=True;");
+
+4️⃣ Run Migrations
+
+Open Package Manager Console and run:
+
 Update-Database
 
-5. Run the Project
+5️⃣ Run the Project
+
+Set Foodish.PresentationLayer as the startup project.
 
 Click Run ▶ or press F5.
+
+The project will launch at a URL like:
+
+https://localhost:xxxx
 
 🤝 Contributing
 
