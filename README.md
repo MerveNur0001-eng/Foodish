@@ -36,6 +36,7 @@ Business Layer → Validation & business rules
 Presentation Layer → MVC, ViewComponents
 
 Project Structure
+
 Foodish/
  ├── Foodish.EntityLayer/
  ├── Foodish.DataAccessLayer/
