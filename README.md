@@ -46,13 +46,14 @@ Follow these steps to set up and run the Foodish application locally.
 
 ### 1️⃣ Clone the Repository
 
+Clone the repository and navigate into the project directory:
+
 ```bash
 git clone [https://github.com/MerveNur0001-eng/Foodish.git](https://github.com/MerveNur0001-eng/Foodish.git)
 cd Foodish
 
-### 2️⃣ Open in Visual Studio
+2️⃣ Open in Visual Studio
 Open the solution file in Visual Studio 2022 or later:
-
 Foodish.sln
 ### 3️⃣ Configure the Database
 Update the SQL Server connection string inside the following file to point to your local database instance:
