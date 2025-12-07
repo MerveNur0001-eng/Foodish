@@ -49,7 +49,7 @@ Follow these steps to set up and run the Foodish application locally.
 ```bash
 git clone [https://github.com/MerveNur0001-eng/Foodish.git](https://github.com/MerveNur0001-eng/Foodish.git)
 cd Foodish
-
+'''
 2️⃣ Open in Visual Studio
 Open the solution file in Visual Studio 2022 or later:
 
