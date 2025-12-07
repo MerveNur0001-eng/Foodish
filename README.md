@@ -40,6 +40,23 @@ The application is structured into five distinct projects to enforce separation 
 | `Foodish.DtoLayer` | Contains **Data Transfer Objects (DTOs)** used for data mapping between layers, often utilizing **AutoMapper**. |
 | `Foodish.PresentationLayer` | The **User Interface Layer**. Contains the **ASP.NET Core MVC** structure, Controllers, Views, and ViewComponents. |
 
+<img width="1270" height="670" alt="image" src="https://github.com/user-attachments/assets/013ae5b4-4db9-409e-b968-55a5410ab607" />
+
+<img width="1275" height="668" alt="image" src="https://github.com/user-attachments/assets/0e84e3d3-442f-45fe-af0b-ff150bc3f8c8" />
+
+<img width="1276" height="671" alt="image" src="https://github.com/user-attachments/assets/9b94ec48-8695-4509-a159-c3854fe735f5" />
+
+<img width="1264" height="668" alt="image" src="https://github.com/user-attachments/assets/13a7642f-1ca5-4648-8503-5e5430001140" />
+
+<img width="1280" height="671" alt="image" src="https://github.com/user-attachments/assets/6b411291-01da-44ef-ae4b-5ee472ef8f81" />
+
+
+<img width="1273" height="667" alt="image" src="https://github.com/user-attachments/assets/18889565-d446-4951-ab90-9b695e6cdcfa" />
+
+<img width="1271" height="652" alt="image" src="https://github.com/user-attachments/assets/0c20bd89-e777-47b8-b92f-a065fa4fcb9c" />
+
+
+
 ## 🚀 How to Run the Project
 
 Follow these steps to set up and run the Foodish application locally.
